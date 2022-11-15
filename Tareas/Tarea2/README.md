@@ -78,5 +78,6 @@ Mostraremos los cambios de la última versión del repositorio con respecto a la
 
 Dado el caso de equivocarnos, podemos corregir el mensaje del commit si aún no lo hemos subido al origen(servidor), para ello haremos uso del comando `git --amend` y cambiaremos el commit.
 ![git amend](./img/14_amend.png)
+
 Una vez hayamos añadido el nuevo mensaje vamos a mostrar nuevamente el último cambio realizado.
 ![git amend](./img/15_show_again.png)
