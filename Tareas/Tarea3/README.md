@@ -38,3 +38,7 @@ Una vez hecho esto, volveremos a emplear el comando `git.log` para comprobar los
 
 Algo que es interesante destacar es que si nos fijamos en la ruta de la terminal `\Tareas\Tarea3`, estamos trabajando en un repositorio git dentro de otro repositorio git `\ets`(A elección propia con fines organizativos solamente). Lo curioso es ver como git sabe que esto es así y nos detecta cambios en ramas distintas...
 Por un lado `origin/main` y por otro lado `HEAD -> main` que aunque no es una rama en si, me parece muy curioso como Git mueve ese Head al repo en el que estamos trabajando actualmente, donde hemos hecho el commit `Añadido capítulo 1`.
+
+--- 
+###Ejercicio 2:
+#### Descripción de la tarea
