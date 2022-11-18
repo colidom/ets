@@ -1,2 +1,4 @@
 Indice de los cápitulos, con conceptos avanzados de git
 Indice de los cápitulos, con conceptos avanzados de git
+En este capítulo veremos cómo usar GitHub para alojar repositorios en remoto.
+Indice de los cápitulos, con conceptos avanzados de git
