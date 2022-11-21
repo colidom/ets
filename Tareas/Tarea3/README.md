@@ -64,18 +64,18 @@ Ahora en la rama `main`, ponemos la palabra `Hola` en el fichero **1.txt**, le a
 ![img](img/13_echo_and_commit.png)
 
 Nos movemos de rama usando el comando `git checkout v0.2` y ponemos la palabra `Adios` en el fichero **1.txt**, finalmente le añadimos y commiteamos.
+
 ![img](img/14_echo_and_commit.png)
 
 Nos posicionamos nuevamente en la rama `main` y mergeamos la rama `v0.2` en la rama actual(`main`).
 ![img](img/15_conflict.png)
 
-~~~
 Esto genera un conflicto ya queen ambas ramas `main` y `v0.2` hemos modificado el mismo fichero y tanto en una como en la otra tenemos versiones distintas del mismo fichero, por un lado `main` contiene la palabra `Hola` y `v0.2` contiene `Adios`, esto provoca que haya una diferencia de código y por lo tanto un conflicto en el mismo.
-~~~
 
 Mostramos el conflicto en la terminal y vemos como hay un "identificador" llamado `<<<<< HEAD`, `=====` y otro  `>>>>>> v0.2`.
 - Desde `<<<<< HEAD` y hasta `=====` indica el contenido del fichero **1.txt** donde está el "puntero de git" en este momento(`llamado HEAD`).
 - Desde `=====` hasta `>>>>>> v0.2` muestra los cambios que contiene la rama `v0.2`, es decir, los que entran en la rama principal(`main`).
+
 ![img](img/16_cat_conflict.png)
 
 Sin corregir el conflicto, hacemos commit de los cambios.
@@ -96,6 +96,7 @@ Ahora hacemos add y commit sobre los cambios realizados.
 ![img](img/20_add_commit.png)
 
 Pusheamos al origin.
+
 ![img](img/21_push.png)
 
 ##### Borrar rama y listado de cambios
