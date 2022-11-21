@@ -82,3 +82,12 @@ Git permite la creación de ramas lo que permite tener distintas versiones del m
 - Mostrar las diferencias entre la primera y la última versión del repositorio.
 
 ###Resultado:
+
+Creando el fichero y añadiendo el contenido:
+![img](img/9_echo.png)
+
+Además de ello haremos un commit y añadiremos un mensaje al mismo tal y como se pide en la tarea, mediante el comando `git commit -m "aquí el mensaje"`. 
+![img](img/10_add_commit.png)
+
+Ahora mediante el comando `git log` mostramos los cambios realizados sobre el fichero README.md en este caso.
+![img](img/11_log.png)
