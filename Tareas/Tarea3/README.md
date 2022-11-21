@@ -98,6 +98,7 @@ Ahora hacemos add y commit sobre los cambios realizados.
 Pusheamos al origin.
 ![img](img/21_push.png)
 
-##### Borrar rama
+##### Borrar rama y listado de cambios
 Crearemos primeramente un tag llamado `v0.2` y borramos la rama `v0.2`.
+Además podremos ver, gráficamente, los cambios que hemos ido haciendo en el repositorio.
 ![img](img/22_tag_and_delete.png)
