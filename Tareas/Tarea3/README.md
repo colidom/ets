@@ -116,3 +116,13 @@ Creando el fichero y añadiendo el contenido y luego añadimos los cambios al st
 
 Finalmente, mediante el comando `git annotate indice.txt` podemos ver que usuario ha hecho cambios sobre el fichero `indice.txt`, en este caso ha sido el usuario `colidom`, es decir, **Yo!**.
 ![img](img/16_addnotate.png)
+
+---
+###Ejercicio 5:
+
+#### Descripción de la tarea
+- Crear una nueva rama bibliografía y mostrar las ramas del repositorio.
+
+###Resultado:
+El primer paso será crear una rama, para ello usamos el comando git branch "nombre rama" y posteriormente con el comando `git branch -av` mostramos las ramas del repo, véase a continuación.
+![img](img/17_new_branch.png)
