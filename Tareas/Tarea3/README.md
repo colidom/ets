@@ -126,3 +126,24 @@ Finalmente, mediante el comando `git annotate indice.txt` podemos ver que usuari
 ###Resultado:
 El primer paso será crear una rama, para ello usamos el comando git branch "nombre rama" y posteriormente con el comando `git branch -av` mostramos las ramas del repo, véase a continuación.
 ![img](img/17_new_branch.png)
+
+---
+###Ejercicio 6:
+
+#### Descripción de la tarea
+- Crear el fichero capitulos/capitulo4.txt y añadir el texto siguiente:
+
+```
+En este capítulo veremos cómo usar GitHub para alojar repositorios en remoto.
+```
+
+- Añadir los cambios a la zona de intercambio temporal.
+- Hacer un commit con el mensaje “Añadido capítulo 4.”
+- Mostrar la historia del repositorio incluyendo todas las ramas.
+
+###Resultado:
+Creando el fichero y añadiendo el contenido:
+![img](img/18_echo_add_commit.png)
+
+Ahora vamos a mostrar la evolución de los commits del repositorio representado gráficamente, para ello usamos el comando `git log --graph --all --oneline`.
+![img](img/19_graph.png)
