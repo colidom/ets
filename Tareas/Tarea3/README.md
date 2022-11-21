@@ -168,3 +168,25 @@ Luego añadiremos el texto propuesto en el ejercicio y haremos commit.
 
 Ahora mostramos gráficamente el historial del repo, para ello usamos el comando `git log --graph --all --oneline`.
 ![img](img/19_graph.png)
+
+---
+###Ejercicio 8:
+
+#### Descripción de la tarea
+- Fusionar la rama bibliografía con la rama main.
+- Mostrar la historia del repositorio incluyendo todas las ramas.
+- Eliminar la rama bibliografía.
+- Mostrar de nuevo la historia del repositorio incluyendo todas las ramas.
+
+###Resultado:
+Lo primero será hacer un checkout de la rama principal(main) para movernos a ella y luego traer los cambios de la rama bibliografia. Y acto seguido mediante `git merge bibliografia` mergearemos, traeremos a main los cambios de la rama bibliografia.
+![img](img/23_checkout_merge.png)
+
+Nos confirmará que se va a mergear la rama bibliografia.
+![img](img/22_msg_merge.png)
+
+Ahora vamos a mostrar de nuevo el historial del repo con el comando `git log --graph --all --oneline`.
+![img](img/24_graph_All.png)
+
+Borraremos la rama bibliografia, para ello usamos `git branch -d bibliografia` y volvemos a mostrar el historial del repo.
+![img](img/25_delete_graph.png)
