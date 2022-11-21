@@ -190,3 +190,48 @@ Ahora vamos a mostrar de nuevo el historial del repo con el comando `git log --g
 
 Borraremos la rama bibliografia, para ello usamos `git branch -d bibliografia` y volvemos a mostrar el historial del repo.
 ![img](img/25_delete_graph.png)
+
+---
+###Ejercicio 9:
+
+#### Descripción de la tarea
+- Crear la rama bibliografía.
+- Cambiar a la rama bibliografía.
+- Cambiar el fichero bibliografia.txt para que contenga las siguientes referencias:
+```
+Scott Chacon and Ben Straub. Pro Git. Apress.
+Ryan Hodson. Ry’s Git Tutorial. Smashwords (2014)
+```
+- Cambiar a la rama main.
+- Cambiar el fichero bibliografia.txt para que - contenga las siguientes referencias:
+```
+Chacon, S. and Straub, B. Pro Git. Apress.
+Loeliger, J. and McCullough, M. Version control with Git. O’Reilly.
+```
+- Añadir los cambios a la zona de intercambio temporal y hacer un commit con el mensaje “Añadida nueva referencia bibliográfica.”
+- Fusionar la rama bibliografía con la rama main.
+- Resolver el conflicto dejando el fichero bibliografia.txt con las referencias:
+```
+Chacon, S. and Straub, B. Pro Git. Apress.
+Loeliger, J. and McCullough, M. Version control with Git. O’Reilly.
+Hodson, R. Ry’s Git Tutorial. Smashwords (2014)
+```
+
+- Añadir los cambios a la zona de intercambio temporal y hacer un commit con el mensaje “Resuelto conflicto de bibliografía.”
+- Mostrar la historia del repositorio incluyendo todas las ramas.
+###Resultado:
+
+Creamos la rama, nos movemos a la misma mediante `git checkout bibliografia`, añadimos el fichero bibliografia.txt con el texto propuesto en la tarea y lo añadimos y hacemos commit en el mismo comando mediante `git commit -a -m "Añadida nueva referencia bibliográfica."`
+![img](img/26_branch_checkout_echo_commit.png)
+
+Nos movemos a la rama principal `git checkout main`
+![img](img/27_checkout_echo_commit.png)
+
+Y mergeamos la rama bibliografía y añadimos un commit.
+![img](img/28_merge_msg.png)
+
+*Importante: Aquí he usado un `strategy` para resolver el conflicto.
+![img](img/29_merge.png)
+
+Mediante el comando `git log --graph --all --oneline` mostraremos el historial del repo donde se puede ver todos los cambios que hemos ido haciendo en esta tarea y todo gráficamente (**Brutal**).
+![img](img/30_log_graph_after_strategy.png)
