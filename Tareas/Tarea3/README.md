@@ -42,3 +42,27 @@ Por un lado `origin/main` y por otro lado `HEAD -> main` que aunque no es una ra
 --- 
 ###Ejercicio 2:
 #### Descripción de la tarea
+
+- Crear el fichero capitulo2.txt en la carpeta capítulos con el siguiente texto.
+```
+El flujo de trabajo básico con Git consiste en: 1- Hacer cambios en el repositorio. 2- Añadir los cambios a la zona de intercambio temporal. 3- Hacer un commit de los cambios.
+```
+
+- Añadir los cambios a la zona de intercambio temporal.
+- Hacer un commit de los cambios con el mensaje Añadido capítulo 2.
+- Mostrar las diferencias entre la última versión y dos versiones anteriores.
+
+###Resultado:
+
+Creando el fichero y añadiendo el contenido:
+![img](img/6_echo.png)
+
+Añadimos los cambios a la zona de intercambio temporal mediante el comando `git add .` (el punto "." significa que queremos añadir todos los ficheros del directorio actual).
+
+Además de ello haremos un commit y añadiremos un mensaje al mismo tal y como se pide en la tarea, mediante el comando `git commit -m "aquí el mensaje"`. 
+![img](img/7_add_commit.png)
+
+Ahora mediante el comando `git log` mostramos los cambios realizados sobre el fichero README.md en este caso.
+`*Se están visualizando varios cambios que no se piden en la tarea pero esto es porque he ido haciendo la tarea sobre el mismo repo donde voy documentando la misma`
+
+![img](img/8_diff.png)
