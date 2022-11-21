@@ -66,3 +66,19 @@ Ahora mediante el comando `git log` mostramos los cambios realizados sobre el fi
 `*Se están visualizando varios cambios que no se piden en la tarea pero esto es porque he ido haciendo la tarea sobre el mismo repo donde voy documentando la misma`
 
 ![img](img/8_diff.png)
+
+--- 
+###Ejercicio 3:
+#### Descripción de la tarea
+
+- Crear el fichero capitulo3.txt en la carpeta capítulos con el siguiente texto.
+
+```
+Git permite la creación de ramas lo que permite tener distintas versiones del mismo proyecto y trabajar de manera simultanea en ellas.
+```
+
+- Añadir los cambios a la zona de intercambio temporal.
+- Hacer un commit de los cambios con el mensaje Añadido capítulo 3.
+- Mostrar las diferencias entre la primera y la última versión del repositorio.
+
+###Resultado:
