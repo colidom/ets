@@ -147,3 +147,24 @@ Creando el fichero y añadiendo el contenido:
 
 Ahora vamos a mostrar la evolución de los commits del repositorio representado gráficamente, para ello usamos el comando `git log --graph --all --oneline`.
 ![img](img/19_graph.png)
+
+---
+###Ejercicio 7:
+
+#### Descripción de la tarea
+- Cambiar a la rama bibliografía.
+- Crear el fichero bibliografia.txt y añadir la siguiente referencia:
+```
+Chacon, S. and Straub, B. Pro Git. Apress.
+Añadir los cambios a la zona de intercambio temporal.
+```
+- Hacer un commit con el mensaje “Añadida primera referencia bibliográfica.”
+- Mostrar la historia del repositorio incluyendo todas las ramas.
+
+###Resultado:
+Primeramente nos moveremos a la rama **bibliografia** (`git checkout bibliografia`).
+Luego añadiremos el texto propuesto en el ejercicio y haremos commit.
+![img](img/18_echo_add_commit.png)
+
+Ahora mostramos gráficamente el historial del repo, para ello usamos el comando `git log --graph --all --oneline`.
+![img](img/19_graph.png)
