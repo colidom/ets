@@ -91,3 +91,7 @@ Además de ello haremos un commit y añadiremos un mensaje al mismo tal y como s
 
 Ahora mediante el comando `git log` mostramos los cambios realizados sobre el fichero README.md en este caso.
 ![img](img/11_log.png)
+
+![img](img/12_diff_hash.png)
+
+![img](img/13_diff_hash.png)
