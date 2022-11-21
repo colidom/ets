@@ -95,3 +95,24 @@ Ahora mediante el comando `git log` mostramos los cambios realizados sobre el fi
 ![img](img/12_diff_hash.png)
 
 ![img](img/13_diff_hash.png)
+
+---
+###Ejercicio 4:
+
+#### Descripción de la tarea
+
+- Crea el fichero índice.txt la siguiente línea:
+
+`Indice de los cápitulos, con conceptos avanzados de git`
+
+- Añadir los cambios a la zona de intercambio temporal.
+- Hacer un commit de los cambios con el mensaje "Indice de los cápitulos, con conceptos avanzados de git.
+- Mostrar quién ha hecho cambios sobre el fichero indice.txt.
+
+###Resultado:
+
+Creando el fichero y añadiendo el contenido y luego añadimos los cambios al stage y hacemos commit con los comandos `git add .` y `git commit -m "Mensaje"`:
+![img](img/15_echo_add_commit.png)
+
+Finalmente, mediante el comando `git annotate indice.txt` podemos ver que usuario ha hecho cambios sobre el fichero `indice.txt`, en este caso ha sido el usuario `colidom`, es decir, **Yo!**.
+![img](img/16_addnotate.png)
