@@ -1,4 +1,4 @@
-## Tarea3: Manipulación Avanzada en Git
+## Tarea: Manipulación Avanzada en Git
 Alumno: Carlos Javier Oliva Domínguez
 N. Lista: 26
 
