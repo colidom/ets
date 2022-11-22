@@ -49,6 +49,7 @@ Otorgamos permisos de ejecución y lo ejecutamos
 Ahora nos aparecerá el Asistente de instalación que tendrá el siguiente aspecto:
 
 Haremos click en `Next`
+
 ![img](img/5_wizard_welc.png)
 
 Dejaremos por defecto la ruta donde se instalará Netbeans y haremos click en `Next`
