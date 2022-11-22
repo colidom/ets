@@ -6,7 +6,7 @@ N. Lista: 26
 
 1. [Prerrequisitos](#id1)
 2. [Instalación](#id2)
-3. [Ejecutando Netbeans 12](#id3)
+3. [Ejecutando Netbeans 15](#id3)
 4. [Eliminar Netbeans](#id4)
 5. [Instalación a través wget (Cualquier distribución Linux)](#id5)
 
@@ -25,7 +25,7 @@ sudo snap install netbeans --classic
 
 ![img](img/2_install_netbeans.png)
 
-##### Ejecutando Netbeans 12 <a name="id3"></a>
+##### Ejecutando Netbeans 15<a name="id3"></a>
 Una vez instaldo podremos abrir el IDE y comprobamos su interfaz de bienvenida
 
 ![img](img/4_netbeans.png)
