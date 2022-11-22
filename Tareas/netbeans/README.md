@@ -31,14 +31,14 @@ Una vez instaldo podremos abrir el IDE y comprobamos su interfaz de bienvenida
 ![img](img/4_netbeans.png)
 
 
-##### Eliminar Netbeans <a name="id3"></a>
+##### Eliminar Netbeans <a name="id4"></a>
 Aunque no haremos este pasi, en caos de querer eliminar Netbeans usaremos el comando:
 
 ```
 sudo snap remove netbeans
 ```
 
-##### Instalación a través wget (Cualquier distribución Linux)
+##### Instalación a través wget (Cualquier distribución Linux) <a name="id5"></a>
 
 Ahora vamos a  realizar la instalación de `Netbeans 12.5` a través del comando `wget`.
 ![img](img/3_netbeans_12.png)
