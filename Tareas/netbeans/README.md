@@ -4,10 +4,11 @@ N. Lista: 26
 
 **Índice**
 
-1. [Instalación](#id1)
-2. [Ejecutando Netbeans 12](#id2)
-3. [Eliminar Netbeans](#id3)
-4. [Instalación a través wget (Cualquier distribución Linux)](#id4)
+1. [Prerrequisitos](#id1)
+2. [Instalación](#id2)
+3. [Ejecutando Netbeans 12](#id3)
+4. [Eliminar Netbeans](#id4)
+5. [Instalación a través wget (Cualquier distribución Linux)](#id5)
 
 ---
 
