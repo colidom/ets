@@ -60,3 +60,6 @@ Nos aparecerá la siguiente pantalla y tendremos que esperar a que finalize el p
 
 Finalmente podremos comprobar que la instalación ha finalizado correctamente.
 ![img](img/8_success_install.png)
+
+Podremos abir Netbeans 12.5:
+![img](img/9_netbeans125.png)
