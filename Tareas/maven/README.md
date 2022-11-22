@@ -40,6 +40,7 @@ sudo ln -s /opt/apache-maven-3.8.6 /opt/maven
 ![img](img/5_link_maven.png)
 
 Lo siguiente será establecer las variables de entorno por lo que crearemos un nuevo archivo llamado mavenenv.sh en el directorio /etc/profile.d/
+
 ![img](img/6_nano_maven.sh.png)
 
 Y ponemos el siguiente código:
