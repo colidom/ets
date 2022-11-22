@@ -1,5 +1,5 @@
-## Tarea3: Manipulación Avanzada en Git (trabajo con tags y ramas)
+## Tarea: Instalación de JDK en el SO
 Alumno: Carlos Javier Oliva Domínguez
 N. Lista: 26
 
-## Instalación de JDK en el SO
+##### ¿Cómo instalar Java en Ubuntu desde repositorios?
