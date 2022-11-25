@@ -59,6 +59,7 @@ El comando `git add` nos permite añadir al STAGE los ficheros que han sido modi
 
 ## Realizando Commit´s<a name="id4"></a>
 Añadiremos un commit descriptivo que explique brevemente los cambios que hemos hecho en el fichero y mostramos el estado del mismo.
+
 ![git commit](./img/10_commit.png)
 
 
