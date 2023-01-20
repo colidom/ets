@@ -47,7 +47,7 @@ Realiza:
 
 ### Introducción
 
-  El presente documento especifica el __diagrama de casos de uso__ de la aplicación __Quietito__ solicitada por el gobierno de la __Republica Independiente del Puerto dela Cruz__.
+  El presente documento especifica el __diagrama de casos de uso__ de la aplicación __App Pandemia__ solicitada por el gobierno de la __Republica Independiente del Puerto dela Cruz__.
 
   Este documento trata a grandes rasgos, los casos de uso identificados, así como los actores que intervienen en ellos.
 
