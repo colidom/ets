@@ -39,10 +39,6 @@ Realiza:
 
 ## Especificación de Casos de Uso:
 
-<div align="center">
-  <img src="https://www.pamplonetario.org/imagen_escala_ancho.php?x=570&imagen=imagenes/tecnociencia/apps-para-una-pandemia-402.png" width="300px" />
-</div>
-
 ## Índice
   - [Introducción](#introducción).
   - [Descripción](#descripción).
