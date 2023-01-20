@@ -1,7 +1,7 @@
 <div align="justify">
 
 <div align="center">
-  <img src="img/app-pandemia.png" />
+  <img src="img/app-pandemia.png" width='300x300' />
 </div>
 
 </br>
