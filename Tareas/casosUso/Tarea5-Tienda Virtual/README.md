@@ -59,27 +59,27 @@ En el presente documento se realiza la especificación de los diferentes actores
 
 #### Cliente
 
-| Actor           | Cliente        |
-| --------------- | -------------- |
-| Descripción     |                |
-| Características |                |
-| Relaciones      |                |
-| Referencias     |                |
-| Notas           |                |
-| Autor           | _Carlos Oliva_ |
-| Fecha           | _19/01/2023_   |
+| Actor           | Cliente                      |
+| --------------- | ---------------------------- |
+| Descripción     | Realiza pedidos en la tienda |
+| Características |                              |
+| Relaciones      |                              |
+| Referencias     |                              |
+| Notas           |                              |
+| Autor           | _Carlos Oliva_               |
+| Fecha           | _19/01/2023_                 |
 
 #### Sistema
 
-| Actor           | Sistema        |
-| --------------- | -------------- |
-| Descripción     |                |
-| Características |                |
-| Relaciones      |                |
-| Referencias     |                |
-| Notas           |                |
-| Autor           | _Carlos Oliva_ |
-| Fecha           | _19/01/2023_   |
+| Actor           | Sistema                                                                |
+| --------------- | ---------------------------------------------------------------------- |
+| Descripción     | Comprueba estado de pedidos, el saldo, genera orden y confirma entrega |
+| Características |                                                                        |
+| Relaciones      |                                                                        |
+| Referencias     |                                                                        |
+| Notas           |                                                                        |
+| Autor           | _Carlos Oliva_                                                         |
+| Fecha           | _19/01/2023_                                                           |
 
 ### Especificación de Casos de uso
 
@@ -88,8 +88,8 @@ En el presente documento se realiza la especificación de los diferentes actores
 | Caso de Uso CU.1 | Realizar pedido                                                                                                                                  |
 | ---------------- | ------------------------------------------------------------------------------------------------------------------------------------------------ |
 | Fuentes          | El caso de uso se sustenta en [este documento](https://github.com/jpexposito/ets/tree/main/diagramas-comportamiento/diagramas-cu/tareas/tarea6). |
-| Actor            |                                                                                                                                                  |
-| Descripción      |                                                                                                                                                  |
+| Actor            | Cliente                                                                                                                                          |
+| Descripción      | El cliente hace pedidos                                                                                                                          |
 | Flujo básico     |                                                                                                                                                  |
 | Pre-condiciones  |                                                                                                                                                  |
 | Post-condiciones |                                                                                                                                                  |
@@ -103,8 +103,8 @@ En el presente documento se realiza la especificación de los diferentes actores
 | Caso de Uso CU.2 | Autenticarse                                                                                                                                     |
 | ---------------- | ------------------------------------------------------------------------------------------------------------------------------------------------ |
 | Fuentes          | El caso de uso se sustenta en [este documento](https://github.com/jpexposito/ets/tree/main/diagramas-comportamiento/diagramas-cu/tareas/tarea6). |
-| Actor            |                                                                                                                                                  |
-| Descripción      |                                                                                                                                                  |
+| Actor            | Cliente                                                                                                                                          |
+| Descripción      | Cliente tiene que autenticarse para pagar                                                                                                        |
 | Flujo básico     |                                                                                                                                                  |
 | Pre-condiciones  |                                                                                                                                                  |
 | Post-condiciones |                                                                                                                                                  |
@@ -118,8 +118,8 @@ En el presente documento se realiza la especificación de los diferentes actores
 | Caso de Uso CU.3 | Registrarse                                                                                                                                      |
 | ---------------- | ------------------------------------------------------------------------------------------------------------------------------------------------ |
 | Fuentes          | El caso de uso se sustenta en [este documento](https://github.com/jpexposito/ets/tree/main/diagramas-comportamiento/diagramas-cu/tareas/tarea6). |
-| Actor            |                                                                                                                                                  |
-| Descripción      |                                                                                                                                                  |
+| Actor            | Cliente                                                                                                                                          |
+| Descripción      | Cliente se registra para realizar un pedido                                                                                                      |
 | Flujo básico     |                                                                                                                                                  |
 | Pre-condiciones  |                                                                                                                                                  |
 | Post-condiciones |                                                                                                                                                  |
@@ -130,26 +130,26 @@ En el presente documento se realiza la especificación de los diferentes actores
 
 #### Gestionar cuenta
 
-| Caso de Uso CU.4 | Gestionar cuenta                                                                                                                                 |
-| ---------------- | ------------------------------------------------------------------------------------------------------------------------------------------------ |
-| Fuentes          | El caso de uso se sustenta en [este documento](https://github.com/jpexposito/ets/tree/main/diagramas-comportamiento/diagramas-cu/tareas/tarea6). |
-| Actor            |                                                                                                                                                  |
-| Descripción      |                                                                                                                                                  |
-| Flujo básico     |                                                                                                                                                  |
-| Pre-condiciones  |                                                                                                                                                  |
-| Post-condiciones |                                                                                                                                                  |
-| Requerimientos   |                                                                                                                                                  |
-| Notas            |                                                                                                                                                  |
-| Autor            | _Carlos Oliva_                                                                                                                                   |
-| Fecha            | _20/01/23_                                                                                                                                       |
+| Caso de Uso CU.4 | Gestionar cuenta                                                                                                                                                                                                                                         |
+| ---------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Fuentes          | El caso de uso se sustenta en [este documento](https://github.com/jpexposito/ets/tree/main/diagramas-comportamiento/diagramas-cu/tareas/tarea6).                                                                                                         |
+| Actor            | Cliente                                                                                                                                                                                                                                                  |
+| Descripción      | Generalmente un cliente tiene una o varias cuentas para pagar los pedidos y cada cuenta tiene asociada una tarjeta de crédito con una cantidad disponible de dinero. Esa cantidad puede aumentarse por parte del cliente para poder realizar más pedidos |
+| Flujo básico     |                                                                                                                                                                                                                                                          |
+| Pre-condiciones  |                                                                                                                                                                                                                                                          |
+| Post-condiciones |                                                                                                                                                                                                                                                          |
+| Requerimientos   |                                                                                                                                                                                                                                                          |
+| Notas            |                                                                                                                                                                                                                                                          |
+| Autor            | _Carlos Oliva_                                                                                                                                                                                                                                           |
+| Fecha            | _20/01/23_                                                                                                                                                                                                                                               |
 
 #### Simple
 
 | Caso de Uso CU.5 | Simple                                                                                                                                           |
 | ---------------- | ------------------------------------------------------------------------------------------------------------------------------------------------ |
 | Fuentes          | El caso de uso se sustenta en [este documento](https://github.com/jpexposito/ets/tree/main/diagramas-comportamiento/diagramas-cu/tareas/tarea6). |
-| Actor            |                                                                                                                                                  |
-| Descripción      |                                                                                                                                                  |
+| Actor            | Cliente                                                                                                                                          |
+| Descripción      | Un pedido compuesto puede tener dos o más pedidos (simples o compuestos)                                                                         |
 | Flujo básico     |                                                                                                                                                  |
 | Pre-condiciones  |                                                                                                                                                  |
 | Post-condiciones |                                                                                                                                                  |
@@ -163,8 +163,8 @@ En el presente documento se realiza la especificación de los diferentes actores
 | Caso de Uso CU.6 | Compuesto                                                                                                                                        |
 | ---------------- | ------------------------------------------------------------------------------------------------------------------------------------------------ |
 | Fuentes          | El caso de uso se sustenta en [este documento](https://github.com/jpexposito/ets/tree/main/diagramas-comportamiento/diagramas-cu/tareas/tarea6). |
-| Actor            |                                                                                                                                                  |
-| Descripción      |                                                                                                                                                  |
+| Actor            | Cliente                                                                                                                                          |
+| Descripción      | Un pedido compuesto se tiene que pagar con la cuenta de un mismo cliente.                                                                        |
 | Flujo básico     |                                                                                                                                                  |
 | Pre-condiciones  |                                                                                                                                                  |
 | Post-condiciones |                                                                                                                                                  |
@@ -178,8 +178,8 @@ En el presente documento se realiza la especificación de los diferentes actores
 | Caso de Uso CU.7 | Asociar tarjeta                                                                                                                                  |
 | ---------------- | ------------------------------------------------------------------------------------------------------------------------------------------------ |
 | Fuentes          | El caso de uso se sustenta en [este documento](https://github.com/jpexposito/ets/tree/main/diagramas-comportamiento/diagramas-cu/tareas/tarea6). |
-| Actor            |                                                                                                                                                  |
-| Descripción      |                                                                                                                                                  |
+| Actor            | Cliente                                                                                                                                          |
+| Descripción      | Cada cuenta tiene asociada una tarjeta de crédito con una cantidad disponible de dinero                                                          |
 | Flujo básico     |                                                                                                                                                  |
 | Pre-condiciones  |                                                                                                                                                  |
 | Post-condiciones |                                                                                                                                                  |
@@ -193,8 +193,8 @@ En el presente documento se realiza la especificación de los diferentes actores
 | Caso de Uso CU.8 | Aumentar saldo                                                                                                                                   |
 | ---------------- | ------------------------------------------------------------------------------------------------------------------------------------------------ |
 | Fuentes          | El caso de uso se sustenta en [este documento](https://github.com/jpexposito/ets/tree/main/diagramas-comportamiento/diagramas-cu/tareas/tarea6). |
-| Actor            |                                                                                                                                                  |
-| Descripción      |                                                                                                                                                  |
+| Actor            | Cliente                                                                                                                                          |
+| Descripción      | La cantidad puede aumentarse por parte del cliente para poder realizar más pedidos.                                                              |
 | Flujo básico     |                                                                                                                                                  |
 | Pre-condiciones  |                                                                                                                                                  |
 | Post-condiciones |                                                                                                                                                  |
@@ -208,8 +208,8 @@ En el presente documento se realiza la especificación de los diferentes actores
 | Caso de Uso CU.9 | Comprueba pedido                                                                                                                                 |
 | ---------------- | ------------------------------------------------------------------------------------------------------------------------------------------------ |
 | Fuentes          | El caso de uso se sustenta en [este documento](https://github.com/jpexposito/ets/tree/main/diagramas-comportamiento/diagramas-cu/tareas/tarea6). |
-| Actor            |                                                                                                                                                  |
-| Descripción      |                                                                                                                                                  |
+| Actor            | Sistema                                                                                                                                          |
+| Descripción      | Los pedidos listos de reparto se entregan y una vez entregados su estado pasa a estar confirmado                                                 |
 | Flujo básico     |                                                                                                                                                  |
 | Pre-condiciones  |                                                                                                                                                  |
 | Post-condiciones |                                                                                                                                                  |
@@ -220,28 +220,28 @@ En el presente documento se realiza la especificación de los diferentes actores
 
 #### Comprueba saldo
 
-| Caso de Uso CU.10 | Comprueba saldo                                                                                                                                  |
-| ----------------- | ------------------------------------------------------------------------------------------------------------------------------------------------ |
-| Fuentes           | El caso de uso se sustenta en [este documento](https://github.com/jpexposito/ets/tree/main/diagramas-comportamiento/diagramas-cu/tareas/tarea6). |
-| Actor             |                                                                                                                                                  |
-| Descripción       |                                                                                                                                                  |
-| Flujo básico      |                                                                                                                                                  |
-| Pre-condiciones   |                                                                                                                                                  |
-| Post-condiciones  |                                                                                                                                                  |
-| Requerimientos    |                                                                                                                                                  |
-| Notas             |                                                                                                                                                  |
-| Autor             | _Carlos Oliva_                                                                                                                                   |
-| Fecha             | _20/01/23_                                                                                                                                       |
+| Caso de Uso CU.10 | Comprueba saldo                                                                                                                                                                 |
+| ----------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Fuentes           | El caso de uso se sustenta en [este documento](https://github.com/jpexposito/ets/tree/main/diagramas-comportamiento/diagramas-cu/tareas/tarea6).                                |
+| Actor             | Sistema                                                                                                                                                                         |
+| Descripción       | Los cobros se hacen diariamente a las 23:59 horas. En ese procedimiento de cobro se comprueban todos los pedidos pendientes de cobro y se cobran de las cuentas de los clientes |
+| Flujo básico      |                                                                                                                                                                                 |
+| Pre-condiciones   |                                                                                                                                                                                 |
+| Post-condiciones  |                                                                                                                                                                                 |
+| Requerimientos    |                                                                                                                                                                                 |
+| Notas             |                                                                                                                                                                                 |
+| Autor             | _Carlos Oliva_                                                                                                                                                                  |
+| Fecha             | _20/01/23_                                                                                                                                                                      |
 
 #### Genera orden
 
 | Caso de Uso CU.11 | Genera orden                                                                                                                                     |
 | ----------------- | ------------------------------------------------------------------------------------------------------------------------------------------------ |
 | Fuentes           | El caso de uso se sustenta en [este documento](https://github.com/jpexposito/ets/tree/main/diagramas-comportamiento/diagramas-cu/tareas/tarea6). |
-| Actor             |                                                                                                                                                  |
-| Descripción       |                                                                                                                                                  |
+| Actor             | Sistema                                                                                                                                          |
+| Descripción       | Si hay saldo suficiente, se genera la orden                                                                                                      |
 | Flujo básico      |                                                                                                                                                  |
-| Pre-condiciones   |                                                                                                                                                  |
+| Pre-condiciones   | Comprobar saldo                                                                                                                                  |
 | Post-condiciones  |                                                                                                                                                  |
 | Requerimientos    |                                                                                                                                                  |
 | Notas             |                                                                                                                                                  |
@@ -253,10 +253,10 @@ En el presente documento se realiza la especificación de los diferentes actores
 | Caso de Uso CU.12 | Confirmar entrega                                                                                                                                |
 | ----------------- | ------------------------------------------------------------------------------------------------------------------------------------------------ |
 | Fuentes           | El caso de uso se sustenta en [este documento](https://github.com/jpexposito/ets/tree/main/diagramas-comportamiento/diagramas-cu/tareas/tarea6). |
-| Actor             |                                                                                                                                                  |
+| Actor             | Sistema                                                                                                                                          |
 | Descripción       |                                                                                                                                                  |
 | Flujo básico      |                                                                                                                                                  |
-| Pre-condiciones   |                                                                                                                                                  |
+| Pre-condiciones   | Orden generada                                                                                                                                   |
 | Post-condiciones  |                                                                                                                                                  |
 | Requerimientos    |                                                                                                                                                  |
 | Notas             |                                                                                                                                                  |
