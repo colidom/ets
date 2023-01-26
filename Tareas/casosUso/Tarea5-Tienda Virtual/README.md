@@ -1,7 +1,7 @@
 <div align="justify">
 
 <div align="center">
-  <img src="img/app-pandemia.png" width='300x300' />
+  <img src="img/TiendaVirtual.drawio.png" width='300x300' />
 </div>
 
 </br>
@@ -22,14 +22,13 @@ Una vez superado este proceso se genera la orden de distribución y confirma los
 
 Los pedidos listos de reparto se entregan y una vez entregados su estado pasa a estar confirmado.
 
-``
-Nota. Un cliente puede o no registrado previamente, con lo cual la realización de pedidos supuno realizar un registro, para más tarde autenticarse.
-``
+`Nota. Un cliente puede o no registrado previamente, con lo cual la realización de pedidos supuno realizar un registro, para más tarde autenticarse.`
 
 Realiza:
-- Identifica los actores.
-- Identifica los __CU__ de cada uno de los actores.
-- Realiza el diagrama de CU.
+
+-   Identifica los actores.
+-   Identifica los **CU** de cada uno de los actores.
+-   Realiza el diagrama de CU.
 
 <div align="center">
   <img src="img/TiendaVirtual.drawio.png" />
@@ -38,164 +37,164 @@ Realiza:
 ## Especificación de Casos de Uso:
 
 ## Índice
-  - [Introducción](#introducción).
-  - [Descripción](#descripción).
-  - [Especificación de actores](#especificación-de-actores).
-  - [Especificación de casos de uso](#especificación-de-casos-de-uso-1).
+
+-   [Introducción](#introducción).
+-   [Descripción](#descripción).
+-   [Especificación de actores](#especificación-de-actores).
+-   [Especificación de casos de uso](#especificación-de-casos-de-uso-1).
 
 ### Introducción
 
-  El presente documento especifica el __diagrama de casos de uso__ de la aplicación __Tienda Virtual__.
+El presente documento especifica el **diagrama de casos de uso** de la aplicación **Tienda Virtual**.
 
-  Este documento trata a grandes rasgos, los casos de uso identificados, así como los actores que intervienen en ellos.
+Este documento trata a grandes rasgos, los casos de uso identificados, así como los actores que intervienen en ellos.
 
 ### Descripción
 
-  El objetivo es realizar un sistema para gestionar las cuentas de los clientes que realizan pedidos de productos del negocio.
+El objetivo es realizar un sistema para gestionar las cuentas de los clientes que realizan pedidos de productos del negocio.
 
 ### Especificación de Actores
 
-  En el presente documento se realiza la especificación de los diferentes actores que intervienen en la solución propuesta.
+En el presente documento se realiza la especificación de los diferentes actores que intervienen en la solución propuesta.
 
 #### Organismos Oficial
 
-  | Actor | Organismo |
-  |---|---|
-  | Descripción  |  |
-  | Características  | |
-  | Relaciones |   |
-  | Referencias | |   
-  |  Notas |   |
-  | Autor  | _Carlos Oliva_ |
-  |Fecha | _19/01/2023_ |
+| Actor           | Organismo      |
+| --------------- | -------------- |
+| Descripción     |                |
+| Características |                |
+| Relaciones      |                |
+| Referencias     |                |
+| Notas           |                |
+| Autor           | _Carlos Oliva_ |
+| Fecha           | _19/01/2023_   |
 
 #### Operador Telefónico
 
-| Actor | Operador Telefónico |
-  |---|---|
-  | Descripción  |  |
-  | Características  | |
-  | Relaciones |   |
-  | Referencias | |   
-  |  Notas |   |
-  | Autor  | _Carlos Oliva_ |
-  |Fecha | _19/01/2023_ |
+| Actor           | Operador Telefónico |
+| --------------- | ------------------- |
+| Descripción     |                     |
+| Características |                     |
+| Relaciones      |                     |
+| Referencias     |                     |
+| Notas           |                     |
+| Autor           | _Carlos Oliva_      |
+| Fecha           | _19/01/2023_        |
 
-#### Gobierno 
+#### Gobierno
 
-  | Actor | Gobierno |
-  |---|---|
-  | Descripción  |  |
-  | Características  | |
-  | Relaciones |   |
-  | Referencias | |   
-  |  Notas |   |
-  | Autor  | _Carlos Oliva_ |
-  |Fecha | _19/01/2023_ |
+| Actor           | Gobierno       |
+| --------------- | -------------- |
+| Descripción     |                |
+| Características |                |
+| Relaciones      |                |
+| Referencias     |                |
+| Notas           |                |
+| Autor           | _Carlos Oliva_ |
+| Fecha           | _19/01/2023_   |
+
 #### Policía
 
-  | Actor | Policia |
-  |---|---|
-  | Descripción  |  |
-  | Características  | |
-  | Relaciones |   |
-  | Referencias | |   
-  |  Notas |   |
-  | Autor  | _Carlos Oliva_ |
-  |Fecha | _19/01/2023_ |
+| Actor           | Policia        |
+| --------------- | -------------- |
+| Descripción     |                |
+| Características |                |
+| Relaciones      |                |
+| Referencias     |                |
+| Notas           |                |
+| Autor           | _Carlos Oliva_ |
+| Fecha           | _19/01/2023_   |
 
 ### Especificación de Casos de uso
 
 #### Información Habitantes
 
-|  Caso de Uso	CU.1 | Información Habitantes |
-|---|---|
-| Fuentes  | El caso de uso se sustenta en [este documento](https://github.com/jpexposito/ets/tree/main/diagramas-comportamiento/diagramas-cu/tareas/tarea6).  |
-| Actor  |   |
-| Descripción |  |
-| Flujo básico |  |
-| Pre-condiciones |  |  
-| Post-condiciones  | |  
-|  Requerimientos |  |
-|  Notas |  |
-| Autor  | _Carlos Oliva_ |
-|Fecha | _20/01/23_ |
+| Caso de Uso CU.1 | Información Habitantes                                                                                                                           |
+| ---------------- | ------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Fuentes          | El caso de uso se sustenta en [este documento](https://github.com/jpexposito/ets/tree/main/diagramas-comportamiento/diagramas-cu/tareas/tarea6). |
+| Actor            |                                                                                                                                                  |
+| Descripción      |                                                                                                                                                  |
+| Flujo básico     |                                                                                                                                                  |
+| Pre-condiciones  |                                                                                                                                                  |
+| Post-condiciones |                                                                                                                                                  |
+| Requerimientos   |                                                                                                                                                  |
+| Notas            |                                                                                                                                                  |
+| Autor            | _Carlos Oliva_                                                                                                                                   |
+| Fecha            | _20/01/23_                                                                                                                                       |
 
 #### Habitantes/Teléfono
 
-|  Caso de Uso	CU.2 | Habitantes/Teléfono |
-|---|---|
-| Fuentes  | El caso de uso se sustenta en [este documento](https://github.com/jpexposito/ets/tree/main/diagramas-comportamiento/diagramas-cu/tareas/tarea6).  |
-| Actor  |   |
-| Descripción |  |
-| Flujo básico |  |
-| Pre-condiciones |  |  
-| Post-condiciones  | |  
-|  Requerimientos |  |
-|  Notas |  |
-| Autor  | _Carlos Oliva_ |
-|Fecha | _20/01/23_ |
+| Caso de Uso CU.2 | Habitantes/Teléfono                                                                                                                              |
+| ---------------- | ------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Fuentes          | El caso de uso se sustenta en [este documento](https://github.com/jpexposito/ets/tree/main/diagramas-comportamiento/diagramas-cu/tareas/tarea6). |
+| Actor            |                                                                                                                                                  |
+| Descripción      |                                                                                                                                                  |
+| Flujo básico     |                                                                                                                                                  |
+| Pre-condiciones  |                                                                                                                                                  |
+| Post-condiciones |                                                                                                                                                  |
+| Requerimientos   |                                                                                                                                                  |
+| Notas            |                                                                                                                                                  |
+| Autor            | _Carlos Oliva_                                                                                                                                   |
+| Fecha            | _20/01/23_                                                                                                                                       |
 
 #### Localización Habitantes
 
-|  Caso de Uso	CU.3 | Localización Habitantes |
-|---|---|
-| Fuentes  | El caso de uso se sustenta en [este documento](https://github.com/jpexposito/ets/tree/main/diagramas-comportamiento/diagramas-cu/tareas/tarea6).  |
-| Actor  |   |
-| Descripción |  |
-| Flujo básico |  |
-| Pre-condiciones |  |  
-| Post-condiciones  | |  
-|  Requerimientos |  |
-|  Notas |  |
-| Autor  | _Carlos Oliva_ |
-|Fecha | _20/01/23_ |
+| Caso de Uso CU.3 | Localización Habitantes                                                                                                                          |
+| ---------------- | ------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Fuentes          | El caso de uso se sustenta en [este documento](https://github.com/jpexposito/ets/tree/main/diagramas-comportamiento/diagramas-cu/tareas/tarea6). |
+| Actor            |                                                                                                                                                  |
+| Descripción      |                                                                                                                                                  |
+| Flujo básico     |                                                                                                                                                  |
+| Pre-condiciones  |                                                                                                                                                  |
+| Post-condiciones |                                                                                                                                                  |
+| Requerimientos   |                                                                                                                                                  |
+| Notas            |                                                                                                                                                  |
+| Autor            | _Carlos Oliva_                                                                                                                                   |
+| Fecha            | _20/01/23_                                                                                                                                       |
 
 #### Información Movimiento
 
-|  Caso de Uso	CU.4 | Información Movimiento |
-|---|---|
-| Fuentes  | El caso de uso se sustenta en [este documento](https://github.com/jpexposito/ets/tree/main/diagramas-comportamiento/diagramas-cu/tareas/tarea6).  |
-| Actor  |   |
-| Descripción |  |
-| Flujo básico |  |
-| Pre-condiciones |  |  
-| Post-condiciones  | |  
-|  Requerimientos |  |
-|  Notas |  |
-| Autor  | _Carlos Oliva_ |
-|Fecha | _20/01/23_ |
+| Caso de Uso CU.4 | Información Movimiento                                                                                                                           |
+| ---------------- | ------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Fuentes          | El caso de uso se sustenta en [este documento](https://github.com/jpexposito/ets/tree/main/diagramas-comportamiento/diagramas-cu/tareas/tarea6). |
+| Actor            |                                                                                                                                                  |
+| Descripción      |                                                                                                                                                  |
+| Flujo básico     |                                                                                                                                                  |
+| Pre-condiciones  |                                                                                                                                                  |
+| Post-condiciones |                                                                                                                                                  |
+| Requerimientos   |                                                                                                                                                  |
+| Notas            |                                                                                                                                                  |
+| Autor            | _Carlos Oliva_                                                                                                                                   |
+| Fecha            | _20/01/23_                                                                                                                                       |
 
 #### Información Regición
 
-|  Caso de Uso	CU.5 | Información Región |
-|---|---|
-| Fuentes  | El caso de uso se sustenta en [este documento](https://github.com/jpexposito/ets/tree/main/diagramas-comportamiento/diagramas-cu/tareas/tarea6).  |
-| Actor  |   |
-| Descripción |  |
-| Flujo básico |  |
-| Pre-condiciones |  |  
-| Post-condiciones  | |  
-|  Requerimientos |  |
-|  Notas |  |
-| Autor  | _Carlos Oliva_ |
-|Fecha | _20/01/23_ |
-
+| Caso de Uso CU.5 | Información Región                                                                                                                               |
+| ---------------- | ------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Fuentes          | El caso de uso se sustenta en [este documento](https://github.com/jpexposito/ets/tree/main/diagramas-comportamiento/diagramas-cu/tareas/tarea6). |
+| Actor            |                                                                                                                                                  |
+| Descripción      |                                                                                                                                                  |
+| Flujo básico     |                                                                                                                                                  |
+| Pre-condiciones  |                                                                                                                                                  |
+| Post-condiciones |                                                                                                                                                  |
+| Requerimientos   |                                                                                                                                                  |
+| Notas            |                                                                                                                                                  |
+| Autor            | _Carlos Oliva_                                                                                                                                   |
+| Fecha            | _20/01/23_                                                                                                                                       |
 
 #### Información Habitantes
 
-|  Caso de Uso	CU.6 | Listar Habitantes |
-|---|---|
-| Fuentes  | El caso de uso se sustenta en [este documento](https://github.com/jpexposito/ets/tree/main/diagramas-comportamiento/diagramas-cu/tareas/tarea6).  |
-| Actor  |   |
-| Descripción |  |
-| Flujo básico |  |
-| Pre-condiciones |  |  
-| Post-condiciones  | |  
-|  Requerimientos |  |
-|  Notas |  |
-| Autor  | _Carlos Oliva_ |
-|Fecha | _20/01/23_ |
-
+| Caso de Uso CU.6 | Listar Habitantes                                                                                                                                |
+| ---------------- | ------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Fuentes          | El caso de uso se sustenta en [este documento](https://github.com/jpexposito/ets/tree/main/diagramas-comportamiento/diagramas-cu/tareas/tarea6). |
+| Actor            |                                                                                                                                                  |
+| Descripción      |                                                                                                                                                  |
+| Flujo básico     |                                                                                                                                                  |
+| Pre-condiciones  |                                                                                                                                                  |
+| Post-condiciones |                                                                                                                                                  |
+| Requerimientos   |                                                                                                                                                  |
+| Notas            |                                                                                                                                                  |
+| Autor            | _Carlos Oliva_                                                                                                                                   |
+| Fecha            | _20/01/23_                                                                                                                                       |
 
 </div>
