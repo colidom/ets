@@ -1,7 +1,7 @@
 <div align="justify">
 
 <div align="center">
-  <img src="img/TiendaVirtual.png" width='300x300' />
+  <img src="img/TiendaVirtual.png"/>
 </div>
 
 </br>
@@ -31,7 +31,7 @@ Realiza:
 -   Realiza el diagrama de CU.
 
 <div align="center">
-  <img src="img/TiendaVirtual.drawio.png" />
+  <img src="img/TiendaVirtual.drawio.png"/>
 </div>
 
 ## Especificación de Casos de Uso:
