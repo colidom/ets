@@ -57,18 +57,6 @@ El objetivo es realizar un sistema para gestionar las cuentas de los clientes qu
 
 En el presente documento se realiza la especificación de los diferentes actores que intervienen en la solución propuesta.
 
-#### Organismos Oficial
-
-| Actor           | Organismo      |
-| --------------- | -------------- |
-| Descripción     |                |
-| Características |                |
-| Relaciones      |                |
-| Referencias     |                |
-| Notas           |                |
-| Autor           | _Carlos Oliva_ |
-| Fecha           | _19/01/2023_   |
-
 #### Cliente
 
 | Actor           | Cliente        |
