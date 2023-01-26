@@ -1,7 +1,7 @@
 <div align="justify">
 
 <div align="center">
-  <img src="img/TiendaVirtual.drawio.png" width='300x300' />
+  <img src="img/TiendaVirtual.png" width='300x300' />
 </div>
 
 </br>
