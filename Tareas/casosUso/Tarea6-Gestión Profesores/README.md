@@ -57,30 +57,30 @@ Este documento trata a grandes rasgos, los casos de uso identificados, así como
 
 ### Descripción
 
-El objetivo es realizar un sistema para gestionar las cuentas de los clientes que realizan pedidos de productos del negocio.
+El objetivo es realizar un sistema para gestionar las cuentas de los Profesors que realizan pedidos de productos del negocio.
 
 ### Especificación de Actores
 
 En el presente documento se realiza la especificación de los diferentes actores que intervienen en la solución propuesta.
 
-#### Actor
+#### Profesor
 
-| Actor           | Aquí el actor                      |
+| Profesor        | Profesor                     |
 | --------------- | ---------------------------- |
-| Descripción     |  |
-| Características |                              |
+| Descripción     | El profesor recibe las actas en blanco de las asignaturas de las que es responsable, en formato electrónico              |
+| Características |  El profesor se debe autenticar en el sistema |
 | Relaciones      |                              |
 | Referencias     |                              |
 | Notas           |                              |
 | Autor           | _Carlos Oliva_               |
 | Fecha           | _30/01/2023_                 |
 
-#### Actor
+#### Administrador
 
-| Actor           | Aquí el actor                                                                |
+| Administrador   | Administrador                |
 | --------------- | ---------------------------------------------------------------------- |
-| Descripción     |  |
-| Características |                                                                        |
+| Descripción     | Administrador del sistema, puede hacer CRUD  |
+| Características | Puede dar de alta, baja, modificar y consultar Asignaturas,Titulaciones, Grupos y Alumnos                                                                  |
 | Relaciones      |                                                                        |
 | Referencias     |                                                                        |
 | Notas           |                                                                        |
@@ -89,13 +89,28 @@ En el presente documento se realiza la especificación de los diferentes actores
 
 ### Especificación de Casos de uso
 
-#### Caso uso 1
+#### Gestionar actas
 
-| Caso de Uso CU.1 |                                                                                                                                 |
+| Caso de Uso CU.1 |  Gestionar actas |
 | ---------------- | ------------------------------------------------------------------------------------------------------------------------------------------------ |
 | Fuentes          | El caso de uso se sustenta en [este documento](https://github.com/jpexposito/ets/tree/main/diagramas-comportamiento/diagramas-cu/tareas/tarea7). |
-| Actor            |                                                                                                                                           |
-| Descripción      |                                                                                                                           |
+| Actor            | Profesor                                                                                                                                        |
+| Descripción      |  Profesor puede gestionar actas                                                                                                                |
+| Flujo básico             | Profesor se autentica y puede gestionar actas                                                                                                                                               |
+| Pre-condiciones  | Estar autenticado                                                                                                                                                 |
+| Post-condiciones |                                                                                                                                                  |
+| Requerimientos   |                                                                                                                                                  |
+| Notas            |                                                                                                                                                  |
+| Autor            | _Carlos Oliva_                                                                                                                                   |
+| Fecha            | _20/01/23_                                                                                                                                       |
+
+#### Obtener estadísticas
+
+|Caso de Uso CU.2  |  Obtener estadísticas       |
+| ---------------- | ------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Fuentes          | El caso de uso se sustenta en [este documento](https://github.com/jpexposito/ets/tree/main/diagramas-comportamiento/diagramas-cu/tareas/tarea7). |
+| Actor            | Profesor                                                                                                                                          |
+| Descripción      |  Obtener una estadística de las calificaciones obtenidas por los alumnos en un determinado grupo de una asignatura                                                                                                       |
 | Flujo básico     |                                                                                                                                                  |
 | Pre-condiciones  |                                                                                                                                                  |
 | Post-condiciones |                                                                                                                                                  |
@@ -104,13 +119,13 @@ En el presente documento se realiza la especificación de los diferentes actores
 | Autor            | _Carlos Oliva_                                                                                                                                   |
 | Fecha            | _20/01/23_                                                                                                                                       |
 
-#### Caso Uso 2
+#### Personas por calificación
 
-| Caso de Uso CU.2 |                                                                                                                                      |
+| Caso de Uso CU.3    |  Personas por calificación     |
 | ---------------- | ------------------------------------------------------------------------------------------------------------------------------------------------ |
 | Fuentes          | El caso de uso se sustenta en [este documento](https://github.com/jpexposito/ets/tree/main/diagramas-comportamiento/diagramas-cu/tareas/tarea7). |
-| Actor            | Cliente                                                                                                                                          |
-| Descripción      |                                                                                                         |
+| Actor            | Profesor                                                                                                                                          |
+| Descripción        |  Obtener estadística de número de personas con cada calificación                                                                                                  |
 | Flujo básico     |                                                                                                                                                  |
 | Pre-condiciones  |                                                                                                                                                  |
 | Post-condiciones |                                                                                                                                                  |
@@ -119,110 +134,95 @@ En el presente documento se realiza la especificación de los diferentes actores
 | Autor            | _Carlos Oliva_                                                                                                                                   |
 | Fecha            | _20/01/23_                                                                                                                                       |
 
-#### Caso uso 3
+#### Porcentaje presentados
 
-| Caso de Uso CU.3 |                                                                                                                                       |
-| ---------------- | ------------------------------------------------------------------------------------------------------------------------------------------------ |
+|Caso de Uso CU.4 |Caso de Porcentaje presentados                            |
+| ---------------- | ------------------------------------------------------- |
+| Fuentes          | El caso de uso se sustenta en [este documento](https://github.com/jpexposito/ets/tree/main/diagramas-comportamiento/diagramas-cu/tareas/tarea7).          |
+| Actor            |Profesor                                                 |
+| Descripción      | Obtener estadística de porcentaje sobre los presentados |
+| Flujo básico     |                                                         |
+| Pre-condiciones  |                                                         |
+| Post-condiciones |                                                         |
+| Requerimientos   |                                                         |
+| Notas            |                                                         |
+| Autor            | _Carlos Oliva_                                          |
+| Fecha            | _20/01/23_                                              |
+
+#### Porcentaje total
+
+| Caso de Uso CU.5 |Porcentaje total                                |
+| ---------------- | ---------------------------------------------- |
 | Fuentes          | El caso de uso se sustenta en [este documento](https://github.com/jpexposito/ets/tree/main/diagramas-comportamiento/diagramas-cu/tareas/tarea7). |
-| Actor            | Cliente                                                                                                                                          |
-| Descripción      |                                                                                                    |
-| Flujo básico     |                                                                                                                                                  |
-| Pre-condiciones  |                                                                                                                                                  |
-| Post-condiciones |                                                                                                                                                  |
-| Requerimientos   |                                                                                                                                                  |
-| Notas            |                                                                                                                                                  |
-| Autor            | _Carlos Oliva_                                                                                                                                   |
-| Fecha            | _20/01/23_                                                                                                                                       |
+| Actor            | Profesor                                       |
+| Descripción      | Obtener estadística de porcentaje sobre el total 
+del grupo                                                           |
+| Flujo básico     |                                                |
+| Pre-condiciones  |                                                |
+| Post-condiciones |                                                |
+| Requerimientos   |                                                |
+| Notas            |                                                |
+| Autor            | _Carlos Oliva_                                 |
+| Fecha            | _20/01/23_                                     |
 
-#### Caso uso 4
+#### Imprimir
 
-| Caso de Uso CU.4 |                                                                                                                                                                                                                           |
-| ---------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Fuentes          | El caso de uso se sustenta en [este documento](https://github.com/jpexposito/ets/tree/main/diagramas-comportamiento/diagramas-cu/tareas/tarea7).                                                                                                         |
-| Actor            |                                                                                                                                                                                                                                                   |
-| Descripción      |  |
-| Flujo básico     |                                                                                                                                                                                                                                                          |
-| Pre-condiciones  |                                                                                                                                                                                                                                                          |
-| Post-condiciones |                                                                                                                                                                                                                                                          |
-| Requerimientos   |                                                                                                                                                                                                                                                          |
-| Notas            |                                                                                                                                                                                                                                                          |
-| Autor            | _Carlos Oliva_                                                                                                                                                                                                                                           |
-| Fecha            | _20/01/23_                                                                                                                                                                                                                                               |
-
-#### Caso uso 5
-
-| Caso de Uso CU.5 | Caso uso 5                                                                                                                                           |
-| ---------------- | ------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Caso de Uso CU.6 | Imprimir  |
+| ---------------- | ---------------------------------------------- |
 | Fuentes          | El caso de uso se sustenta en [este documento](https://github.com/jpexposito/ets/tree/main/diagramas-comportamiento/diagramas-cu/tareas/tarea7). |
-| Actor            | Cliente                                                                                                                                          |
-| Descripción      |                                                                          |
-| Flujo básico     |                                                                                                                                                  |
-| Pre-condiciones  |                                                                                                                                                  |
-| Post-condiciones |                                                                                                                                                  |
-| Requerimientos   |                                                                                                                                                  |
-| Notas            |                                                                                                                                                  |
-| Autor            | _Carlos Oliva_                                                                                                                                   |
-| Fecha            | _20/01/23_                                                                                                                                       |
+| Actor            | Profesor                                       |
+| Descripción      | El profesor puede imprimir las actas y la lista provisional de calificaciones |
+| Flujo básico     |                                                |
+| Pre-condiciones  |                                                |
+| Post-condiciones |                                                |
+| Requerimientos   |                                                |
+| Notas            |                                                |
+| Autor            | _Carlos Oliva_                                 |
+| Fecha            | _20/01/23_                                     |
 
-#### Caso uso 6
+#### Consulta información  
 
-| Caso de Uso CU.6 | Caso uso 6                                                                                                                                        |
-| ---------------- | ------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Caso de Uso CU.7 | Consulta información                                                                                                                    |
+| ---------------- | ---------------------------------------------- |
 | Fuentes          | El caso de uso se sustenta en [este documento](https://github.com/jpexposito/ets/tree/main/diagramas-comportamiento/diagramas-cu/tareas/tarea7). |
-| Actor            | Cliente                                                                                                                                          |
-| Descripción      |                                                                        |
-| Flujo básico     |                                                                                                                                                  |
-| Pre-condiciones  |                                                                                                                                                  |
-| Post-condiciones |                                                                                                                                                  |
-| Requerimientos   |                                                                                                                                                  |
-| Notas            |                                                                                                                                                  |
-| Autor            | _Carlos Oliva_                                                                                                                                   |
-| Fecha            | _20/01/23_                                                                                                                                       |
+| Actor            | Profesor                                       |
+| Descripción      | Permitir la consulta de la siguiente información de cualquier alumno seleccionado DNI, N.° EXPEDIENTE, Lista de asignaturas en las que está matriculado el alumno (Código asignatura-Nombre asignatura)                               |
+| Flujo básico     |                                                |
+| Pre-condiciones  |                                                |
+| Post-condiciones |                                                |
+| Requerimientos   |                                                |
+Notas              |                                                |
+| Autor            | _Carlos Oliva_                                 |
+| Fecha            | _20/01/23_                                     |
 
-#### Caso uso 7
+#### Consultar porcentaje    
 
-| Caso de Uso CU.7 | Caso uso 7                                                                                                                                  |
-| ---------------- | ------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Caso de Uso CU.8 | Consultar porcentaje                                                          |
+| ---------------- | ---------------------------------------------- |
 | Fuentes          | El caso de uso se sustenta en [este documento](https://github.com/jpexposito/ets/tree/main/diagramas-comportamiento/diagramas-cu/tareas/tarea7). |
-| Actor            | Cliente                                                                                                                                          |
-| Descripción      |                                                   |
-| Flujo básico     |                                                                                                                                                  |
-| Pre-condiciones  |                                                                                                                                                  |
-| Post-condiciones |                                                                                                                                                  |
-| Requerimientos   |                                                                                                                                                  |
-| Notas            |                                                                                                                                                  |
-| Autor            | _Carlos Oliva_                                                                                                                                   |
-| Fecha            | _20/01/23_                                                                                                                                       |
+| Actor            | Profesor                                       |
+| Descripción      | Consultar el porcentaje de personas sobre el total del grupo que se han presentado y el de los que no se han presentado                     |
+| Flujo básico     |                                                |
+|Pre-condiciones   |                                                |
+| Post-condiciones |                                                |
+| Requerimientos   |                                                |
+| Autor            | _Carlos Oliva_                                 |
+| Fecha            | _20/01/23_                                     |
 
-#### Caso uso 8
+#### Visualizar gráfico
 
-| Caso de Uso CU.8 | Caso uso 8                                                                                                                                   |
-| ---------------- | ------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Caso de Uso CU.9 | Visualizar gráfico                             |
+| ---------------- | ---------------------------------------------- |
 | Fuentes          | El caso de uso se sustenta en [este documento](https://github.com/jpexposito/ets/tree/main/diagramas-comportamiento/diagramas-cu/tareas/tarea7). |
-| Actor            | Cliente                                                                                                                                          |
-| Descripción      |                                                               |
-| Flujo básico     |                                                                                                                                                  |
-| Pre-condiciones  |                                                                                                                                                  |
-| Post-condiciones |                                                                                                                                                  |
-| Requerimientos   |                                                                                                                                                  |
-| Notas            |                                                                                                                                                  |
-| Autor            | _Carlos Oliva_                                                                                                                                   |
-| Fecha            | _20/01/23_                                                                                                                                       |
-
-#### Caso uso 9
-
-| Caso de Uso CU.9 | Caso uso 9                                                                                                                                 |
-| ---------------- | ------------------------------------------------------------------------------------------------------------------------------------------------ |
-| Fuentes          | El caso de uso se sustenta en [este documento](https://github.com/jpexposito/ets/tree/main/diagramas-comportamiento/diagramas-cu/tareas/tarea7). |
-| Actor            | Sistema                                                                                                                                          |
-| Descripción      |                                              |
-| Flujo básico     |                                                                                                                                                  |
-| Pre-condiciones  |                                                                                                                                                  |
-| Post-condiciones |                                                                                                                                                  |
-| Requerimientos   |                                                                                                                                                  |
-| Notas            |                                                                                                                                                  |
-| Autor            | _Carlos Oliva_                                                                                                                                   |
-| Fecha            | _20/01/23_                                                                                                                                       |
+| Actor            | Sistema                                        |
+| Descripción      | Poder visualizar un gráfico indicativo del número de personas que han obtenido una calificación entre 0-0.99, 1-1.99, 2-2.99, 3-3.99, 4-4.99, 5-5.99, 6-6.99, 8-8.99, 9-10; indicándose la nota media obtenida por la clase               |
+| Flujo básico     |                                                |
+| Pre-condiciones  |                                                |
+| Post-condiciones |                                                |
+| Requerimientos   |                                                |
+| Notas            |                                                |
+| Autor            | _Carlos Oliva_                                 |
+| Fecha            | _20/01/23_                                     |
 
 #### Caso uso 10
 
