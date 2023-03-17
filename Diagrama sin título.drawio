@@ -1,1 +1,63 @@
-<mxfile host="app.diagrams.net" modified="2023-03-17T16:10:48.253Z" agent="5.0 (X11; Ubuntu)" version="21.0.4" etag="Z5V8f-R_XxDnbAZf5y86" type="github"><diagram name="Página-1" id="jJNeEDrr8gDwhbXfziv4">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2023-03-17T16:20:25.659Z" agent="5.0 (X11; Ubuntu)" etag="aP0K0P_TTEQEfyyTS_so" version="21.0.4" type="github">
+  <diagram name="Página-1" id="jJNeEDrr8gDwhbXfziv4">
+    <mxGraphModel dx="1434" dy="664" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="7-lYlSjcwmW1SoGfIWag-29" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="90" y="170" width="700" height="410" as="geometry" />
+        </mxCell>
+        <mxCell id="7-lYlSjcwmW1SoGfIWag-1" value="SQLite" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="102.5" y="333" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7-lYlSjcwmW1SoGfIWag-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="7-lYlSjcwmW1SoGfIWag-17" target="7-lYlSjcwmW1SoGfIWag-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="92.5" y="369.5" as="sourcePoint" />
+            <mxPoint x="92.5" y="419" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7-lYlSjcwmW1SoGfIWag-5" value="&lt;h1 style=&quot;font-size: 23px;&quot; dir=&quot;auto&quot;&gt;&lt;font style=&quot;font-size: 23px;&quot;&gt;&lt;font style=&quot;font-size: 22px;&quot;&gt;&lt;font style=&quot;font-size: 21px;&quot;&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;&lt;font style=&quot;font-size: 19px;&quot;&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;Barber Shop Schedule &amp;amp; Management&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/h1&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="170" width="340" height="53" as="geometry" />
+        </mxCell>
+        <mxCell id="7-lYlSjcwmW1SoGfIWag-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="7-lYlSjcwmW1SoGfIWag-6" target="7-lYlSjcwmW1SoGfIWag-16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="628.5" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7-lYlSjcwmW1SoGfIWag-6" value="Cliente" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="727.5" y="328" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7-lYlSjcwmW1SoGfIWag-18" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;startArrow=classic;startFill=1;exitX=0.004;exitY=0.582;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="7-lYlSjcwmW1SoGfIWag-16" target="7-lYlSjcwmW1SoGfIWag-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7-lYlSjcwmW1SoGfIWag-16" value="login" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="502.5" y="333" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="7-lYlSjcwmW1SoGfIWag-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7-lYlSjcwmW1SoGfIWag-17" target="7-lYlSjcwmW1SoGfIWag-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7-lYlSjcwmW1SoGfIWag-17" value="CrearCita" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="337.5" y="383" width="90" height="50.5" as="geometry" />
+        </mxCell>
+        <mxCell id="7-lYlSjcwmW1SoGfIWag-21" value="Pago" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="332.5" y="500" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="7-lYlSjcwmW1SoGfIWag-23" value="&lt;div&gt;Comprobar&lt;/div&gt;&lt;div&gt;calendario&lt;br&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="337.5" y="290" width="90" height="50.5" as="geometry" />
+        </mxCell>
+        <mxCell id="7-lYlSjcwmW1SoGfIWag-25" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;startArrow=classic;startFill=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="7-lYlSjcwmW1SoGfIWag-16" target="7-lYlSjcwmW1SoGfIWag-23">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="516.5" y="379" as="sourcePoint" />
+            <mxPoint x="431.5" y="406" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7-lYlSjcwmW1SoGfIWag-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="7-lYlSjcwmW1SoGfIWag-23" target="7-lYlSjcwmW1SoGfIWag-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="347.5" y="418" as="sourcePoint" />
+            <mxPoint x="42.5" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
