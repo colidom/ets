@@ -18,5 +18,3 @@ class TestMyModule(unittest.TestCase):
         with self.assertRaises(TypeError):
             mymodule.sum(5, "Python")
 
-if __name__ == "__main__":
-    unittest.main()
