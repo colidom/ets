@@ -7,7 +7,7 @@ import mymodule
 class TestMyModule(unittest.TestCase):
     
     def test_get_prime_numbers(self):
-        self.assertEqual(mymodule.get_prime_numbers(10), [2, 3, 5, 7])
+        self.assertEqual(mymodule.get_prime_numbers(20), [2, 3, 5, 7, 11, 13, 17, 19])
     
     def test_is_prime(self):
         self.assertTrue(mymodule.is_prime(5))
